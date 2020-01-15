@@ -34,6 +34,9 @@ $ git clone https://github.com/loisemuthoni/pitch.git
 
 $ cd PitchApp
 
+## Live Link
+- https://pitcherloise.herokuapp.com/
+
 ## Technologies used
 - Python 
 - Flask 
