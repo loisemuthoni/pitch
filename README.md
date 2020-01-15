@@ -13,14 +13,13 @@ As a user of the application, you will be able to:
 - Comment on other people's pitches
 - create an account, login and update your profile
 ## BDD
-Behaviour	input	output
-View all pitches	Home page displays all pitches	Home page displays all pitches
-login	Click on login	allows user to login into the account using the login form
-create an account	Click on sign in	form which allos users to sign in for the first time
-post a pitch	Click on Post pitch	brings an input form for posting a pitch
-vote for a pitch	Click on upvote/downvote	The number of upvotes and downvotes increacres by one
-comment on a post	Click on comment	Display a comment box to allow users to post a comment on a specific pitch
-Update profile	Click on Profile	Takes the user to the profile page with options to edit and upload profile picture
+| Behaviour             |                Input                |                                                                       Output |
+| :-------------------- | :---------------------------------: | ---------------------------------------------------------------------------: |
+| Load the page         |          **On page load**           |                               Get all posts, Select between signup and login |
+| Select SignUp         | **Email**,**Username**,**Password** |                                                            Redirect to login |
+| Select Login          |    **Username** and **password**    | Redirect to page with app pitches based on categories and commenting section |
+| Select comment button |             **Comment**             |                                             Form that you input your comment |
+| Click on submit       |                                     |       Redirect to all comments tamplate with your comment and other comments |
 
 # Getting started
 
