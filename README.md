@@ -1,51 +1,38 @@
-# PITCHAPP
-PitchApp is a web application that allows people pitch themselves or present their ideas and practice making great first impressions in one minute
+# Blog
 
-## Author
-Loise Muthoni
+### Project Description
+##### This is an application that allow writers to write a blog, edit or delete the blog if they want to.View users comments,delete the comments they feel degrading.It also allow users to view different blogs and comment on them and subscribe to get notification for new blogs.
 
-## Features
-As a user of the application, you will be able to:
+### Author
+##### Irene Mercy
 
-- See different pitches posetd by other people
-- Post your own pitch
-- Vote for other people's posts
-- Comment on other people's pitches
-- create an account, login and update your profile
-## BDD
-| Behaviour             |                Input                |                                                                       Output |
-| :-------------------- | :---------------------------------: | ---------------------------------------------------------------------------: |
-| Load the page         |          **On page load**           |                               Get all posts, Select between signup and login |
-| Select SignUp         | **Email**,**Username**,**Password** |                                                            Redirect to login |
-| Select Login          |    **Username** and **password**    | Redirect to page with app pitches based on categories and commenting section |
-| Select comment button |             **Comment**             |                                             Form that you input your comment |
-| Click on submit       |                                     |       Redirect to all comments tamplate with your comment and other comments |
+### Project Setup
+##### Fork the repository, On your terminal run the command git clone "project link" On your terminal, cd BlogYou On your terminal then run the command code. to open the project on your text editor.
 
-# Getting started
+### BDD
+##### As a user, I would like to view the blog posts on the site
+##### As a user, I would like to comment on blog posts
+##### As a user, I would like to view the most recent posts
+##### As a user, I would like to an email alert when a new post is made by joining a subscription.
+##### As a user, I would like to see random quotes on the site
+##### As a writer, I would like to sign in to the blog.
+##### As a writer, I would also like to create a blog from the application.
+##### As a writer, I would like to delete comments that I find insulting or degrading.
+##### As a writer, I would like to update or delete blogs I have created.
 
-## Prerequisites
-- python
-- Virtual environment
-- pip
-## Cloning
-Navigate into the folder you want the application to be In your terminal, run the commands
 
-$ git clone https://github.com/loisemuthoni/pitch.git
+### Technologies Used
+##### Python
+##### Flask
 
-$ cd PitchApp
+### Dependencies
+##### Psql
 
-## Live Link
-- https://pitcherloise.herokuapp.com/
+### License
+##### MIT License
 
-## Technologies used
-- Python 
-- Flask 
-- Html 
-- Bootstrap
+### Copyright
+##### Irene Mercy Oyoo
 
-## Copyright (c) 2020 Loise Muthoni
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. Copyright (c) 2020 loisemuthoni
+### Contact
+##### irenemercy700@gmail.com
